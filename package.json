@@ -1,0 +1,38 @@
+{
+	"name": "@bluepineapple/praas-popup-component",
+	"version": "0.0.1",
+	"private": false,
+	"description": "'praas",
+	"keywords": [
+		"ServiceNow",
+		"Now Experience UI Component",
+		"@bluepineapple/praas-popup-component"
+	],
+	"readme": "./README.md",
+	"engines": {
+		"node": ">=8.6.0",
+		"npm": ">=5.3.0"
+	},
+	"module": "src/index.js",
+	"dependencies": {
+		"@servicenow/cli-archetype": "19.0.0",
+		"@servicenow/cli-component-archetype": "19.0.0",
+		"@servicenow/library-translate": "quebec",
+		"@servicenow/now-button": "quebec",
+		"@servicenow/now-card": "quebec",
+		"@servicenow/now-icon": "quebec",
+		"@servicenow/now-input": "^19.8.2-ecd",
+		"@servicenow/now-loader": "quebec",
+		"@servicenow/now-modal": "quebec",
+		"@servicenow/now-toggle": "quebec",
+		"@servicenow/sass-kit": "quebec",
+		"@servicenow/sass-theme": "quebec",
+		"@servicenow/ui-core": "quebec",
+		"@servicenow/ui-effect-http": "quebec",
+		"@servicenow/ui-renderer-snabbdom": "quebec"
+	},
+	"devDependencies": {
+		"@servicenow/cli-archetype-dev": "19.0.0",
+		"@servicenow/cli-component-archetype-dev": "19.0.0"
+	}
+}
